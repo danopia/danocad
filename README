@@ -1,0 +1,9 @@
+DanoCAD is an attempt at a clean, simple, and free CAD. Right now, only 2D is
+supported. 3D is planned later on.
+
+This is the Ruby version. The VB.NET version, which actually works, is located
+on a SVN repo on my private server. I'll add a link later.
+
+This version uses Glade and the Ruby bindings. To get them on Ubuntu:
+
+  sudo apt-get install glade libglade2-ruby
