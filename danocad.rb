@@ -1,7 +1,4 @@
 #!/usr/bin/env ruby
-#
-# This file is gererated by ruby-glade-create-template 1.1.4.
-#
 require 'libglade2'
 
 class DanoCAD
@@ -93,6 +90,6 @@ end
 
 # Main program
 if __FILE__ == $0
-  app = DanoCAD.new('hello-world.glade', nil, 'Hello World')
+  app = DanoCAD.new('danocad.glade', nil, 'DanoCAD')
   Gtk.main
 end

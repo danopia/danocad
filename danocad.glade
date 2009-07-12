@@ -414,11 +414,9 @@
 <widget class="GtkAboutDialog" id="aboutdialog">
   <property name="border_width">5</property>
   <property name="destroy_with_parent">False</property>
-  <property name="name" translatable="yes">Hello World</property>
+  <property name="name" translatable="yes">DanoCAD</property>
   <property name="copyright" translatable="yes">Copyright Danopia 2009</property>
-  <property name="comments" translatable="yes">A simple Hello World to test out Glade.
-
-Already seems to be growing into a CAD :P</property>
+  <property name="comments" translatable="yes">DanoCAD is an attempt at a clean, simple, and free CAD. Right now, only 2D is supported. 3D is planned later on.</property>
   <property name="license" translatable="yes" comments="GNU License">Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
 * Redistributions of source code must retain the above
@@ -437,8 +435,8 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
   <property name="wrap_license">True</property>
   <property name="website">http://danopia.net/</property>
   <property name="website_label" translatable="yes">danopia.net</property>
-  <property name="authors">ruby coding - danopia
-thanks to glade and ruby</property>
+  <property name="authors">Coded by danopia
+Thanks to Glade and Ruby</property>
   <property name="translator_credits" translatable="yes" comments="TRANSLATORS: Replace this string with your names, one name per line.">translator-credits</property>
   <signal name="response" handler="on_aboutdialog_response" last_modification_time="Sun, 12 Jul 2009 11:13:04 GMT"/>
   <signal name="delete_event" handler="on_aboutdialog_delete_event" last_modification_time="Sun, 12 Jul 2009 11:13:11 GMT"/>
